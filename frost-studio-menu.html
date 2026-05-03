@@ -398,7 +398,8 @@
       <div class="fs-tags-wrap">
         <span class="fs-tag">Nutella</span><span class="fs-tag">Dulce de Leche</span><span class="fs-tag">Leche Condensada</span><span class="fs-tag">Fresa</span><span class="fs-tag">Crema de maní</span>
       </div>
-      <div class="fs-extra-note">+ INYECCIÓN EXTRA · +1,00 €</div>
+      <div class="fs-extra-note">+ INYECCIÓN · +1,00 €</div>
+      <button style="width:100%;margin-top:10px;padding:11px;background:#FF3000;border:none;border-radius:10px;color:#fff;font-weight:900;font-size:13px;cursor:pointer;font-family:Nunito,sans-serif;letter-spacing:0.05em;" onclick="addHeladoToCart()">🍦 + Añadir Helado al pedido</button>
     </div>
 
     <div class="fs-specials-header">
@@ -469,13 +470,16 @@
     </div>
 
     <div class="fs-specials-grid">
-      <div class="fs-special-card"><div class="fs-special-name">Mango</div><div class="fs-special-desc">Granizado molecular de mango</div></div>
-      <div class="fs-special-card"><div class="fs-special-name">Maracuyá</div><div class="fs-special-desc">Granizado molecular de maracuyá</div></div>
-      <div class="fs-special-card"><div class="fs-special-name">Mango y Maracuyá</div><div class="fs-special-desc">Granizado molecular combinado</div></div>
-      <div class="fs-special-card"><div class="fs-special-name">Limón</div><div class="fs-special-desc">Granizado molecular de limón</div></div>
-      <div class="fs-special-card"><div class="fs-special-name">Pomelo</div><div class="fs-special-desc">Granizado molecular de pomelo</div></div>
-      <div class="fs-special-card"><div class="fs-special-name">Albahaca con Lima</div><div class="fs-special-desc">Granizado molecular de albahaca y lima</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Mango" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Mango</div><div class="fs-special-desc">Granizado molecular de mango</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Maracuyá" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Maracuyá</div><div class="fs-special-desc">Granizado molecular de maracuyá</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Mango y Maracuyá" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Mango y Maracuyá</div><div class="fs-special-desc">Granizado molecular combinado</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Limón" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Limón</div><div class="fs-special-desc">Granizado molecular de limón</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Pomelo" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Pomelo</div><div class="fs-special-desc">Granizado molecular de pomelo</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Albahaca con Lima" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Albahaca con Lima</div><div class="fs-special-desc">Granizado molecular de albahaca y lima</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Jengibre con Lima" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Jengibre con Lima</div><div class="fs-special-desc">Granizado molecular de jengibre y lima</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Jengibre con Lima y Albahaca" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Jengibre con Lima y Albahaca</div><div class="fs-special-desc">Granizado molecular de jengibre, lima y albahaca</div></div>
     </div>
+    <div style="padding:0 20px 20px;"><button style="width:100%;margin-top:10px;padding:11px;background:#FF3000;border:none;border-radius:10px;color:#fff;font-weight:900;font-size:13px;cursor:pointer;font-family:Nunito,sans-serif;letter-spacing:0.05em;" onclick="addFrostizadoToCart()">🧊 + Añadir Frostizado al pedido</button></div>
 
     <div class="fs-links">
       <a class="fs-link-btn primary" href="https://www.instagram.com/froststudiotf/" target="_blank">📸 Instagram</a>
@@ -547,7 +551,8 @@
       <div class="fs-tags-wrap">
         <span class="fs-tag">Nutella</span><span class="fs-tag">Dulce de Leche</span><span class="fs-tag">Sweet Milk</span><span class="fs-tag">Strawberry</span><span class="fs-tag">Peanut Butter</span>
       </div>
-      <div class="fs-extra-note">+ EXTRA SYRINGE · +€1.00</div>
+      <div class="fs-extra-note">+ SYRINGE · +€1.00</div>
+      <button style="width:100%;margin-top:10px;padding:11px;background:#FF3000;border:none;border-radius:10px;color:#fff;font-weight:900;font-size:13px;cursor:pointer;font-family:Nunito,sans-serif;letter-spacing:0.05em;" onclick="addHeladoToCart()">🍦 + Add Ice Cream to order</button>
     </div>
 
     <div class="fs-specials-header">
@@ -618,13 +623,16 @@
     </div>
 
     <div class="fs-specials-grid">
-      <div class="fs-special-card"><div class="fs-special-name">Mango</div><div class="fs-special-desc">Molecular mango granita</div></div>
+      <div class="fs-special-card" data-context="frostizado" data-value="Mango" onclick="event.stopPropagation();toggleFrostizado(this)"><div class="fs-special-name">Mango</div><div class="fs-special-desc">Molecular mango granita</div></div>
       <div class="fs-special-card"><div class="fs-special-name">Passion Fruit</div><div class="fs-special-desc">Molecular passion fruit granita</div></div>
       <div class="fs-special-card"><div class="fs-special-name">Mango &amp; Passion Fruit</div><div class="fs-special-desc">Combined molecular granita</div></div>
       <div class="fs-special-card"><div class="fs-special-name">Lemon</div><div class="fs-special-desc">Molecular lemon granita</div></div>
       <div class="fs-special-card"><div class="fs-special-name">Grapefruit</div><div class="fs-special-desc">Molecular grapefruit granita</div></div>
       <div class="fs-special-card"><div class="fs-special-name">Basil &amp; Lime</div><div class="fs-special-desc">Molecular basil and lime granita</div></div>
+      <div class="fs-special-card"><div class="fs-special-name">Ginger &amp; Lime</div><div class="fs-special-desc">Molecular ginger and lime granita</div></div>
+      <div class="fs-special-card"><div class="fs-special-name">Ginger, Lime &amp; Basil</div><div class="fs-special-desc">Molecular ginger, lime and basil granita</div></div>
     </div>
+    <div style="padding:0 20px 20px;"><button style="width:100%;margin-top:10px;padding:11px;background:#FF3000;border:none;border-radius:10px;color:#fff;font-weight:900;font-size:13px;cursor:pointer;font-family:Nunito,sans-serif;letter-spacing:0.05em;" onclick="addFrostizadoToCart()">🧊 + Add Frostizado to order</button></div>
 
     <div class="fs-links">
       <a class="fs-link-btn primary" href="https://www.instagram.com/froststudiotf/" target="_blank">📸 Instagram</a>
@@ -780,23 +788,33 @@ function switchLang(lang, btn) {
   renderOrder();
 }
 
-/* ── ESTADO DEL PEDIDO ── */
-const order = {
-  size: null,        // {name, price}
-  base: null,        // string
-  flavors: [],       // strings (max 2 extras +1.50€)
-  toppings: [],      // strings (max 2 extras +1.50€)
-  injections: [],    // strings (max 2 extras +1.00€)
-  special: null,     // {name, price}
-};
+/* ══════════════════════════════════════
+   CARRITO UNIVERSAL
+   Cada ítem del carrito tiene:
+   { id, type, label, price, detail }
+   type: 'helado' | 'special' | 'milkshake' | 'waffle' | 'frostizado'
+══════════════════════════════════════ */
+let cart = [];
+let nextId = 1;
+
+// Estado temporal del helado en construcción
+let tempHelado = newTempHelado();
+let heladoActivo = null; // id del helado en edición (null = nuevo)
+
+function newTempHelado() {
+  return { size: null, base: null, flavors: [], toppings: [], injections: [] };
+}
 
 const PRICES = {
-  size: { 'Cono': 6, 'Regular': 6, 'Large': 7, 'Extra Large': 20, 'Cone': 6, 'Large': 7 },
   flavorExtra: 1.5,
   toppingExtra: 1.5,
-  injectionExtra: 1.0,
+  injectionPrice: 1.0,
   special: 8,
+  milkshake: 8,
+  frostizado: 5,
 };
+
+const WAFFLE_PRICES = { 'Clásico': 8, 'Classic': 8, 'Especial': 10, 'Special': 10 };
 
 function getLang() {
   return document.querySelector('.fs-lang-tab.active')?.dataset?.lang || 'es';
@@ -804,45 +822,108 @@ function getLang() {
 
 const LABELS = {
   es: {
-    title: '🧾 MI PEDIDO',
-    empty: 'Aún no has elegido nada',
-    size: 'TAMAÑO',
-    base: 'BASE',
-    flavor: 'SABOR',
-    topping: 'TOPPING',
-    injection: 'INYECCIÓN',
-    special: 'ESPECIAL',
-    total: 'TOTAL',
-    clear: 'Limpiar pedido',
-    extra: '+1 extra',
+    title: '🧾 MI PEDIDO', empty: 'Aún no has elegido nada',
+    total: 'TOTAL', clear: 'Limpiar pedido',
+    addHelado: '+ Añadir este helado al pedido',
+    addMilk: '+ Añadir Milkshake al pedido',
+    addFrost: '+ Añadir Frostizado al pedido',
+    building: '⬆ Configurando Helado',
+    flavor: 'sabor', topping: 'topping', injection: 'jeringa',
+    size: 'tamaño', base: 'base',
   },
   en: {
-    title: '🧾 MY ORDER',
-    empty: "You haven't chosen anything yet",
-    size: 'SIZE',
-    base: 'BASE',
-    flavor: 'FLAVOR',
-    topping: 'TOPPING',
-    injection: 'INJECTION',
-    special: 'SPECIAL',
-    total: 'TOTAL',
-    clear: 'Clear order',
-    extra: '+1 extra',
+    title: '🧾 MY ORDER', empty: "You haven't chosen anything yet",
+    total: 'TOTAL', clear: 'Clear order',
+    addHelado: '+ Add this ice cream to order',
+    addMilk: '+ Add Milkshake to order',
+    addFrost: '+ Add Frostizado to order',
+    building: '⬆ Configuring Ice Cream',
+    flavor: 'flavor', topping: 'topping', injection: 'syringe',
+    size: 'size', base: 'base',
   }
 };
 
-/* ── CALCULAR TOTAL ── */
-function calcTotal() {
-  let total = 0;
-  if (order.special) {
-    total += order.special.price;
-  } else {
-    if (order.size) total += order.size.price;
-    if (order.flavors.length > 1) total += (order.flavors.length - 1) * PRICES.flavorExtra;
-    if (order.toppings.length > 1) total += (order.toppings.length - 1) * PRICES.toppingExtra;
-    if (order.injections.length > 1) total += (order.injections.length - 1) * PRICES.injectionExtra;
-  }
+function fmt(price) { return price.toFixed(2).replace('.', ',') + ' €'; }
+
+/* ── CALCULAR PRECIO HELADO ── */
+function calcHeladoPrice(h) {
+  let total = h.size ? h.size.price : 0;
+  if (h.flavors.length > 1) total += (h.flavors.length - 1) * PRICES.flavorExtra;
+  if (h.toppings.length > 1) total += (h.toppings.length - 1) * PRICES.toppingExtra;
+  total += h.injections.length * PRICES.injectionPrice;
   return total;
+}
+
+/* ── BOTÓN AÑADIR HELADO ── */
+function addHeladoToCart() {
+  const h = tempHelado;
+  if (!h.size && !h.special) { alert(getLang()==='es'?'Elige al menos un tamaño':'Choose at least a size'); return; }
+  let label = [];
+  if (h.size) label.push(h.size.name);
+  if (h.base) label.push(h.base);
+  if (h.flavors.length) label.push(h.flavors.join(', '));
+  if (h.toppings.length) label.push('+ ' + h.toppings.join(', '));
+  if (h.injections.length) label.push('💉 ' + h.injections.join(', '));
+  cart.push({ id: nextId++, type: 'helado', label: label.join(' · '), price: calcHeladoPrice(h) });
+  tempHelado = newTempHelado();
+  clearSelections();
+  renderOrder();
+  openOrder();
+}
+
+/* ── BOTÓN AÑADIR SPECIAL ── */
+function addSpecialToCart(name, price) {
+  cart.push({ id: nextId++, type: 'special', label: name, price });
+  renderOrder();
+  openOrder();
+}
+
+/* ── BOTÓN AÑADIR MILKSHAKE ── */
+function addMilkshakeToCart() {
+  const selected = Array.from(document.querySelectorAll('.fs-tag.selected[data-context="milkshake"]')).map(t => t.dataset.value);
+  const toppings = Array.from(document.querySelectorAll('.fs-tag.selected[data-context="milkshake-topping"]')).map(t => t.dataset.value);
+  if (!selected.length) { alert(getLang()==='es'?'Elige al menos un sabor':'Choose at least one flavor'); return; }
+  let label = 'Milkshake · ' + selected.join(', ');
+  if (toppings.length) label += ' + ' + toppings.join(', ');
+  let price = PRICES.milkshake; // 8€ base siempre
+  if (selected.length > 1) price += (selected.length - 1) * PRICES.flavorExtra;
+  if (toppings.length > 1) price += (toppings.length - 1) * PRICES.toppingExtra;
+  cart.push({ id: nextId++, type: 'milkshake', label, price });
+  document.querySelectorAll('.fs-tag[data-context="milkshake"], .fs-tag[data-context="milkshake-topping"]').forEach(t => t.classList.remove('selected'));
+  renderOrder();
+  openOrder();
+}
+
+/* ── BOTÓN AÑADIR FROSTIZADO ── */
+function addFrostizadoToCart() {
+  const selected = Array.from(document.querySelectorAll('.fs-tag.selected[data-context="frostizado"]')).map(t => t.dataset.value);
+  if (!selected.length) { alert(getLang()==='es'?'Elige un sabor':'Choose a flavor'); return; }
+  const label = 'Frostizado · ' + selected.join(', ');
+  cart.push({ id: nextId++, type: 'frostizado', label, price: PRICES.frostizado });
+  document.querySelectorAll('.fs-tag[data-context="frostizado"]').forEach(t => t.classList.remove('selected'));
+  renderOrder();
+  openOrder();
+}
+
+/* ── BOTÓN AÑADIR WAFFLE ── */
+function addWaffleToCart(name, price) {
+  cart.push({ id: nextId++, type: 'waffle', label: 'Waffle Bowl · ' + name, price });
+  renderOrder();
+  openOrder();
+}
+
+/* ── ELIMINAR DEL CARRITO ── */
+function removeFromCart(id) {
+  cart = cart.filter(item => item.id !== id);
+  renderOrder();
+}
+
+/* ── LIMPIAR TODO ── */
+function clearOrder() {
+  cart = [];
+  tempHelado = newTempHelado();
+  clearSelections();
+  renderOrder();
 }
 
 /* ── RENDERIZAR RESUMEN ── */
@@ -851,152 +932,120 @@ function renderOrder() {
   const L = LABELS[lang] || LABELS.es;
   const body = document.getElementById('order-body');
   const countEl = document.getElementById('order-count');
-  const titleEl = document.getElementById('order-title');
+  document.getElementById('order-title').textContent = L.title;
 
-  titleEl.textContent = L.title;
-
-  let count = 0;
   let html = '';
+  let total = 0;
 
-  if (order.special) {
-    count++;
-    html += section(L.special, `<div class="fs-order-item"><span>${order.special.name}</span><span style="color:#FF3000;font-weight:900;">${order.special.price.toFixed(2).replace('.',',')} €</span><button class="fs-order-item-remove" onclick="removeSpecial()">×</button></div>`);
-  } else {
-    if (order.size) {
-      count++;
-      html += section(L.size, `<div class="fs-order-item"><span>${order.size.name}</span><span style="color:#FF3000;font-weight:900;">${order.size.price.toFixed(2).replace('.',',')} €</span><button class="fs-order-item-remove" onclick="removeSize()">×</button></div>`);
-    }
-    if (order.base) {
-      count++;
-      html += section(L.base, `<div class="fs-order-item"><span>${order.base}</span><button class="fs-order-item-remove" onclick="removeBase()">×</button></div>`);
-    }
-    if (order.flavors.length) {
-      count += order.flavors.length;
-      html += section(L.flavor, order.flavors.map((f, i) => `<div class="fs-order-item"><span>${f}${i > 0 ? ` <span style="color:#FF3000;font-size:10px;">+${PRICES.flavorExtra.toFixed(2).replace('.',',')}€</span>` : ''}</span><button class="fs-order-item-remove" onclick="removeFlavor(${i})">×</button></div>`).join(''));
-    }
-    if (order.toppings.length) {
-      count += order.toppings.length;
-      html += section(L.topping, order.toppings.map((t, i) => `<div class="fs-order-item"><span>${t}${i > 0 ? ` <span style="color:#FF3000;font-size:10px;">+${PRICES.toppingExtra.toFixed(2).replace('.',',')}€</span>` : ''}</span><button class="fs-order-item-remove" onclick="removeTopping(${i})">×</button></div>`).join(''));
-    }
-    if (order.injections.length) {
-      count += order.injections.length;
-      html += section(L.injection, order.injections.map((inj, i) => `<div class="fs-order-item"><span>${inj}${i > 0 ? ` <span style="color:#FF3000;font-size:10px;">+${PRICES.injectionExtra.toFixed(2).replace('.',',')}€</span>` : ''}</span><button class="fs-order-item-remove" onclick="removeInjection(${i})">×</button></div>`).join(''));
-    }
+  // Helado en construcción
+  const h = tempHelado;
+  const hasTemp = h.size || h.flavors.length || h.toppings.length || h.injections.length || h.base;
+  if (hasTemp) {
+    let parts = [];
+    if (h.size) parts.push(h.size.name + ' ' + fmt(h.size.price));
+    if (h.base) parts.push(h.base);
+    if (h.flavors.length) parts.push(h.flavors.join(', '));
+    if (h.toppings.length) parts.push(h.toppings.join(', '));
+    if (h.injections.length) parts.push('💉 ' + h.injections.join(', '));
+    html += `<div style="border:1.5px dashed #FF3000;border-radius:12px;padding:10px;margin-bottom:10px;">
+      <div style="font-size:10px;font-weight:900;color:#FF3000;letter-spacing:0.1em;margin-bottom:6px;">${L.building}</div>
+      <div style="font-size:12px;color:#ccc;line-height:1.6;">${parts.join(' · ')}</div>
+      <div style="font-size:13px;font-weight:900;color:#FF3000;margin-top:6px;">${fmt(calcHeladoPrice(h))}</div>
+      <button onclick="addHeladoToCart()" style="margin-top:8px;width:100%;padding:8px;background:#FF3000;border:none;border-radius:8px;color:#fff;font-weight:900;font-size:12px;cursor:pointer;font-family:Nunito,sans-serif;">${L.addHelado}</button>
+    </div>`;
   }
 
-  if (!html) {
-    html = `<p class="fs-order-empty">${L.empty}</p>`;
-  } else {
-    const total = calcTotal();
-    html += `<div class="fs-order-total"><span class="fs-order-total-label">${L.total}</span><span class="fs-order-total-price">${total.toFixed(2).replace('.',',')} €</span></div>`;
+  // Items del carrito
+  if (cart.length) {
+    const types = { helado:'🍦', special:'⭐', milkshake:'🥤', waffle:'🧇', frostizado:'🧊' };
+    cart.forEach(item => {
+      total += item.price;
+      html += `<div class="fs-order-item" style="margin-bottom:6px;">
+        <span style="flex:1;font-size:12px;">${types[item.type] || ''} ${item.label}</span>
+        <span style="color:#FF3000;font-weight:900;white-space:nowrap;margin-left:8px;">${fmt(item.price)}</span>
+        <button class="fs-order-item-remove" onclick="removeFromCart(${item.id})">×</button>
+      </div>`;
+    });
+    html += `<div class="fs-order-total"><span class="fs-order-total-label">${L.total}</span><span class="fs-order-total-price">${fmt(total)}</span></div>`;
     html += `<button class="fs-order-clear" onclick="clearOrder()">${L.clear}</button>`;
+  } else if (!hasTemp) {
+    html = `<p class="fs-order-empty">${L.empty}</p>`;
   }
 
   body.innerHTML = html;
-  countEl.textContent = count;
-  countEl.style.display = count > 0 ? 'flex' : 'none';
+  countEl.textContent = cart.length;
+  countEl.style.display = cart.length > 0 ? 'flex' : 'none';
 }
 
-function section(title, content) {
-  return `<div class="fs-order-section"><div class="fs-order-section-title">${title}</div>${content}</div>`;
+function openOrder() {
+  document.getElementById('order-body').classList.add('open');
+  document.getElementById('order-toggle').classList.add('open');
 }
 
-/* ── TOGGLE RESUMEN ── */
 function toggleOrder() {
-  const body = document.getElementById('order-body');
-  const toggle = document.getElementById('order-toggle');
-  body.classList.toggle('open');
-  toggle.classList.toggle('open');
+  document.getElementById('order-body').classList.toggle('open');
+  document.getElementById('order-toggle').classList.toggle('open');
 }
 
-/* ── ACCIONES ── */
-function removeSize() { order.size = null; document.querySelectorAll('.fs-size-card').forEach(c => c.classList.remove('selected')); renderOrder(); }
-function removeBase() { order.base = null; document.querySelectorAll('.fs-base-pill').forEach(c => c.classList.remove('selected')); renderOrder(); }
-function removeFlavor(i) { order.flavors.splice(i, 1); syncTagSelection('flavor', order.flavors); renderOrder(); }
-function removeTopping(i) { order.toppings.splice(i, 1); syncTagSelection('topping', order.toppings); renderOrder(); }
-function removeInjection(i) { order.injections.splice(i, 1); syncTagSelection('injection', order.injections); renderOrder(); }
-function removeSpecial() { order.special = null; document.querySelectorAll('.fs-special-card').forEach(c => c.classList.remove('selected')); renderOrder(); }
-function clearOrder() {
-  order.size = null; order.base = null; order.flavors = []; order.toppings = []; order.injections = []; order.special = null;
+/* ── SELECCIONES ── */
+function clearSelections() {
   document.querySelectorAll('.fs-size-card, .fs-base-pill, .fs-tag, .fs-special-card').forEach(el => el.classList.remove('selected'));
-  renderOrder();
 }
 
-function syncTagSelection(type, arr) {
-  document.querySelectorAll(`.fs-tag[data-type="${type}"]`).forEach(el => {
-    el.classList.toggle('selected', arr.includes(el.dataset.value));
-  });
-}
-
-/* ── CLICKS EN TAMAÑO ── */
 document.addEventListener('click', function(e) {
+  // Tamaño
   const sizeCard = e.target.closest('.fs-size-card');
   if (sizeCard) {
     const name = sizeCard.querySelector('.fs-size-name').textContent.trim();
-    const priceText = sizeCard.querySelector('.fs-size-price').textContent.trim();
-    const price = parseFloat(priceText.replace('€','').replace(',','.'));
-    order.size = { name, price };
+    const price = parseFloat(sizeCard.querySelector('.fs-size-price').textContent.replace('€','').replace(',','.'));
+    tempHelado.size = { name, price };
     document.querySelectorAll('.fs-size-card').forEach(c => c.classList.remove('selected'));
     sizeCard.classList.add('selected');
-    renderOrder();
-    return;
+    renderOrder(); return;
   }
-
+  // Base
   const basePill = e.target.closest('.fs-base-pill');
   if (basePill) {
-    order.base = basePill.textContent.trim();
+    tempHelado.base = basePill.textContent.trim();
     document.querySelectorAll('.fs-base-pill').forEach(c => c.classList.remove('selected'));
     basePill.classList.add('selected');
-    renderOrder();
-    return;
+    renderOrder(); return;
   }
-
+  // Tags genéricos
   const tag = e.target.closest('.fs-tag');
   if (tag && tag.dataset.type) {
     const type = tag.dataset.type;
     const value = tag.dataset.value;
-    const arr = type === 'flavor' ? order.flavors : type === 'topping' ? order.toppings : order.injections;
+    const arr = type === 'flavor' ? tempHelado.flavors : type === 'topping' ? tempHelado.toppings : tempHelado.injections;
     const idx = arr.indexOf(value);
-    if (idx >= 0) {
-      arr.splice(idx, 1);
-      tag.classList.remove('selected');
-    } else {
-      arr.push(value);
-      tag.classList.add('selected');
-    }
-    renderOrder();
-    return;
+    if (idx >= 0) { arr.splice(idx, 1); tag.classList.remove('selected'); }
+    else { arr.push(value); tag.classList.add('selected'); }
+    renderOrder(); return;
   }
-
+  // Tags con contexto (milkshake, frostizado)
+  if (tag && tag.dataset.context) {
+    tag.classList.toggle('selected');
+    renderOrder(); return;
+  }
+  // Especiales
   const specialCard = e.target.closest('.fs-special-card');
-  if (specialCard && !e.target.closest('a')) {
+  if (specialCard && !e.target.closest('a') && !e.target.classList.contains('fs-order-item-remove') && !e.target.closest('button')) {
     const name = specialCard.querySelector('.fs-special-name')?.textContent?.trim();
-    if (name) {
-      const priceEl = specialCard.querySelector('.fs-special-name span');
-      const price = priceEl ? parseFloat(priceEl.textContent.replace('€','').replace(',','.')) : 8;
-      if (order.special && order.special.name === name) {
-        order.special = null;
-        specialCard.classList.remove('selected');
-      } else {
-        document.querySelectorAll('.fs-special-card').forEach(c => c.classList.remove('selected'));
-        order.special = { name, price: isNaN(price) ? 8 : price };
-        specialCard.classList.add('selected');
-      }
-      renderOrder();
-    }
+    if (name) addSpecialToCart(name, PRICES.special);
   }
 });
 
-/* ── AÑADIR data-type y data-value A LOS TAGS ── */
+/* ── INIT ── */
 window.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.fs-section').forEach(section => {
-    const title = section.querySelector('.fs-step-title')?.textContent?.toLowerCase() || '';
+  // Marcar tags de helado normal
+  document.querySelectorAll('.fs-section').forEach(sec => {
+    const title = sec.querySelector('.fs-step-title')?.textContent?.toLowerCase() || '';
     let type = null;
     if (title.includes('sabor') || title.includes('flavor')) type = 'flavor';
     else if (title.includes('topping')) type = 'topping';
-    else if (title.includes('inyecci') || title.includes('injection') || title.includes('jeringa') || title.includes('syringe')) type = 'injection';
+    else if (title.includes('inyecci') || title.includes('injection') || title.includes('syringe')) type = 'injection';
     if (type) {
-      section.querySelectorAll('.fs-tag').forEach(tag => {
+      sec.querySelectorAll('.fs-tag').forEach(tag => {
         tag.dataset.type = type;
         tag.dataset.value = tag.textContent.trim();
       });
@@ -1004,6 +1053,20 @@ window.addEventListener('DOMContentLoaded', () => {
   });
   renderOrder();
 });
+
+function toggleFrostizado(card) {
+  card.classList.toggle('selected');
+}
+
+function addFrostizadoToCart() {
+  const selected = Array.from(document.querySelectorAll('.fs-special-card[data-context="frostizado"].selected')).map(c => c.dataset.value);
+  if (!selected.length) { alert(getLang()==='es'?'Elige un sabor':'Choose a flavor'); return; }
+  const label = 'Frostizado · ' + selected.join(', ');
+  cart.push({ id: nextId++, type: 'frostizado', label, price: PRICES.frostizado });
+  document.querySelectorAll('.fs-special-card[data-context="frostizado"]').forEach(c => c.classList.remove('selected'));
+  renderOrder();
+  openOrder();
+}
 </script>
 <!-- RESUMEN DE PEDIDO STICKY -->
 <div class="fs-order" id="order-widget">
